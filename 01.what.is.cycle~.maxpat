@@ -140,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 548.0, 404.5, 289.0, 87.0 ],
-					"text" : "Y-values (output) from <cos~> from -1. to 1. \nOver X-values from 0. to 1. (input), this represents a single PERIOD of a cosine waveform from 0 to 2π radians (or, 0° to 180° in phase space). The sawtooth simply repeats this period above at a certain frequency, and so does the cosine wave!"
+					"text" : "Y-values (output) from <cos~> from -1. to 1. \nOver X-values from 0. to 1. (input), this represents a single PERIOD of a cosine waveform from 0 to 2π radians (or, 0° to 360° in phase space). The sawtooth simply repeats this period above at a certain frequency, and so does the cosine wave!"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 118.5, 247.0, 127.0 ],
+					"patching_rect" : [ 609.0, 118.5, 248.0, 127.0 ],
 					"text" : "We can use <phasor~> as a CONTROL SIGNAL to read from a LOOKUP TABLE. \n\n(A control signal is a signal that you don't hear, but it controls changes in other signals you do hear, much like in modular synthesis. \n\nA lookup table contains X and Y values that will be turned into an audible WAVEFORM)."
 				}
 
